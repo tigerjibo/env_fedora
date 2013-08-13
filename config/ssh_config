@@ -1,0 +1,13 @@
+
+Host cvlinux
+User boji
+Hostname cvlinux.xa.com
+Port  29418
+IdentityFile ~/.ssh/jibo.tiger@gmail.com
+
+Host gitserv-gerrit
+User boji
+Hostname  gitserv.nc.com
+Port  29418
+IdentityFile ~/.ssh/jibo.tiger@gmail.com
+
