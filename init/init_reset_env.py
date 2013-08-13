@@ -14,7 +14,7 @@ def reset_nfs():
     print 'reset nfs server...\n'
     s,o = getso("exportfs -rv")
     handle(s,o)
-    s,o = getso("service nfs-kernel-server restart")
+    s,o = getso("service nfs restart")
     handle(s,o)
 
 def reset_sambo():
