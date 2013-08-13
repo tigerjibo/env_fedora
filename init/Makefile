@@ -2,12 +2,12 @@ $(info ******************************************)
 $(info *****Auto Install and Configure software***)
 $(info **Author :JiBo Email:jibo.tiger@gmail.com**)
 
-all: agency_update install env
+all: install_driver install_software env
 
-agency_update:
-	@echo "Add nework agency and update..."
-	sudo python prepare.py
-install:
+install_dirver:
+	@echo "install driver..."
+	sudo python sudo_driver.py
+install_software:
 	@echo "Install all software..."
 	sudo python sudo.py
 env:
