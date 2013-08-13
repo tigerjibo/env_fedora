@@ -1,6 +1,6 @@
 import os
 #PROJECT_FOLDER is the project folder name
-PROJECT_FOLDER = 'env'
+PROJECT_FOLDER = 'env_fedora'
 HOME = os.environ['HOME']
 HOST_NAME =  (HOME.split('/'))[2]
 CONFIG = 'CV_Linux'

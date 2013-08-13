@@ -18,7 +18,7 @@ autocmd FileType make set noexpandtab
 autocmd FileType c color default
 autocmd FileType c set cindent
 autocmd FileType c set noexpandtab
-autocmd Filetype c source ~/env/config/adrian.vim
+autocmd Filetype c source ~/env_fedora/config/adrian.vim
 autocmd FileType python set nocindent
 autocmd FileType python set textwidth=150
 autocmd FileType python set tabstop=4
