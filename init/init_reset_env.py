@@ -17,15 +17,7 @@ def reset_nfs():
     s,o = getso("service nfs restart")
     handle(s,o)
 
-def reset_sambo():
-    print 'input sambo passwd..\n'
-    s,o = getso("smbpasswd -a %s" %HOST_NAME)
-    handle(s,o)
-    print 'reset samba server...'
-    s,o = getso("service smbd restart")
-    handle(s,o)
 
 def do():
     reset_tftp()
     reset_nfs()
-    reset_sambo()
