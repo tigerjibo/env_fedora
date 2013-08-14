@@ -24,8 +24,6 @@ def setup_git():
 def setup_bin():
     os.symlink(pjoin(BASE, 'bin_script'), pjoin(HOME, 'bin'))
 
-def setup_ssh():
-    os.symlink(pjoin(BASE, 'ssh_config'), pjoin(HOME, '.ssh/config'))
 
 def setup_work():
     os.mkdir(pjoin(HOME,EMBED_WORK))
@@ -36,5 +34,4 @@ def do():
     setup_vim()
     setup_git()
     setup_bin()
-    setup_ssh()
     setup_work()
