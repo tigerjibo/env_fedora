@@ -9,7 +9,7 @@ ENV_URL = os.path.join(HOME,PROJECT_FOLDER,'config')
 #EMBED_WORK is the nfs server share  dirname
 EMBED_WORK = 'Embbed_work'
 #use to generate ssh public key
-EMAIL = 'jibo.tiger@gmail.com'
+EMAIL = 'jibo@edan.com'
 #IP_ADDRESS 
 IP_ADDRESS = '192.168.21.107'
 #NET_DRIVER_NAME this is the dell net dirver name
