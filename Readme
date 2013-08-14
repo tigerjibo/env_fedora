@@ -2,4 +2,16 @@ What :
 This software is able to atuo configure and setup 
 Embedded Develop Environment based on python on Fedora
 OS.
+How to do?
+Setp 1
+modify config/gitconfig and init/config.py files contents based on 
+your environment.
+You must modify:
+(1)Email address in config/gitconfig and init/config
+(2) IP ADDRESS in init/config based on your machine
+(3) others is optional.
+Setp 2
+(1)cd env_fedora/init
+(2)make
+
 

@@ -1,15 +1,9 @@
-Before running the script, below steps are mandatory and need to
-be executed manually:
+folder struct
+(1)do.py is responsible for get common  environment and configure environment in
+user mode
+(2)sudo_env.py is responsible for some special configure environment and reset
+configure for example nfs,tftp in root mode.
+(3)sudo.py is responsible for auto install software in root mode
+(4)sudo_driver.py is responsible for auto insatll necessary device driver in
+root mode
 
-0. Add proxy settings in /etc/apt/apt.conf
-1. sudo apt-get update
-2. sudo apt-get upgrade
-------------------------------------
-In config.py files:
-CONFIG: will clone env folder configer files to CONFIG folder name.
-EMBED_WORK: use mount to pc and embbed board folder name.
-EMAIL: use generate to ssh key. The Email address must be identical to gitconfig
-email address and ssh_configure email address
-----------------------------------------------------------
-add init_reset_env.py support reset tftp, nfs,sambo server
-add  prepare.py support auto add network agent and auto update
