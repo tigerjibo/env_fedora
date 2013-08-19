@@ -13,7 +13,12 @@ EMAIL = 'jibo@edan.com'
 #IP_ADDRESS 
 IP_ADDRESS = '192.168.21.107'
 #NET_DRIVER_NAME this is the dell net dirver name
-DRIVER_DIR         ='driver'
+#if you don't want to install dell net dirver,you must comment the blow lines
+#and give NET_DIRVER_NAME value NULL.
+DRIVER_DIR_NAME     ='driver'
+#NET_DRIVER_NAME    =''
+#NET_DRIVER_VERSION =''
 NET_DRIVER_NAME    = 'e1000e'
 NET_DRIVER_VERSION = '1.9.5'
-NET_DRIVER_PATH = os.path.join(BASE,DRIVER_DIR,NET_DRIVER_NAME +'-' + NET_DRIVER_VERSION,'src')
+DRIVER_DIR = os.path.join(BASE,DRIVER_DIR_NAME)
+NET_DRIVER_PATH = os.path.join(DRIVER_DIR,NET_DRIVER_NAME +'-' + NET_DRIVER_VERSION,'src')
