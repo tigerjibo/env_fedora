@@ -12,6 +12,10 @@ set nowrap
 set expandtab
 set textwidth=80
 let c_syntax_for_h=1
+"set javascript
+let b:javascript_fold=1
+au BufNewFile,BufRead *.jsm set filetype=javascript
+au BufNewFile,BufRead *.bld set filetype=javascript
 syntax on
 
 autocmd FileType make set noexpandtab
