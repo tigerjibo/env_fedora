@@ -1,8 +1,22 @@
-What :
+env_fedora 
+---------------------------------
+
+Copyright (c) 2013-2020, Ji Bo <jibo.tiger@gmail.cm> and contributors
+All Rights Reserved.
+
+These program is dual-licensed under both the GPL version 2 and BSD
+license. Either license may be used at your option.
+
+
+This package include config and init. See
+README file respective subdirectories (config/README or
+init/README) for more details.
+
+what env_fedora?
 This software is able to atuo configure and setup 
 Embedded Develop Environment based on python on Fedora
 OS.
-How to do?
+How to do use?
 Setp 1
 modify config/gitconfig and init/config.py files contents based on 
 your environment.
