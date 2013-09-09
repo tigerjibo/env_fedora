@@ -1,2 +1,0 @@
-dev.txt
-ubuntu.txt
