@@ -3,7 +3,7 @@ import os
 PROJECT_FOLDER = 'env_fedora'
 HOME = os.environ['HOME']
 HOST_NAME =  (HOME.split('/'))[2]
-CONFIG = 'CV_Linux'
+CONFIG = 'ED_Linux'
 BASE = os.path.join(HOME, CONFIG)
 ENV_URL = os.path.join(HOME,PROJECT_FOLDER,'config')
 #EMBED_WORK is the nfs server share  dirname
