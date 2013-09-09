@@ -6,7 +6,7 @@ all:    install_software env install_driver
 
 install_software:
 	@echo "Install all software..."
-#sudo python sudo.py
+	sudo python sudo_app.py
 env:
 	@echo "Configure Software Environment.."
 	python do.py
