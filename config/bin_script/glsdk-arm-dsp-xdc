@@ -1,0 +1,5 @@
+export DSP_DEVKIT_PATH=${DSP_PATH}/glsdk/ti-devkit
+export CODEGEN_PATH=${DSP_DEVKIT_PATH}/cgt470_5_0_1
+export XDCTOOLS_PATH=${DSP_PATH}/glsdk/component-sources/xdctools_3_25_02_70
+export PATH="${PATH}:${CODEGEN_PATH}/bin:${XDCTOOLS_PATH}:${XDCTOOLS_PATH}/bin"
+export XDCPATH="${XDCPATH}"

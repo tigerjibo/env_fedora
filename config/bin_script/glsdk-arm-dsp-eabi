@@ -1,0 +1,3 @@
+export PATH=/home/jibo/toolchain/arm-glsdk-eabi/bin:$PATH
+export CROSS_COMPILE=arm-linux-gnueabihf-
+export ARCH=arm

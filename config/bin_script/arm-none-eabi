@@ -1,3 +1,0 @@
-export PATH=~/toolchain/arm-2011.09-eabi/bin:$PATH
-export CROSS_COMPILE=arm-none-eabi-
-export ARCH=arm

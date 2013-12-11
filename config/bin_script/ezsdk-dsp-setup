@@ -1,8 +1,8 @@
 #dsp-develp-path
 export DSP_PATH=~/DSP
 #dsp toolchain
-source ~/bin/arm-dsp-eabi
+source ~/bin/ezsdk-arm-dsp-eabi
 #dsp xdc tool
-source ~/bin/arm-dsp-xdc
+source ~/bin/ezsdk-arm-dsp-xdc
 
 
